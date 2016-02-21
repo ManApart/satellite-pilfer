@@ -23,7 +23,7 @@ public class Main extends SimpleApplication {
     public void simpleInitApp() {
         Box b = new Box(1, 1, 1);
         Geometry geom = new Geometry("Box", b);
-        System.out.print("Hey Aaron!");
+        System.out.print("Hey Aaron! What's up!");
         Material mat = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
         mat.setColor("Color", ColorRGBA.Blue);
         geom.setMaterial(mat);
